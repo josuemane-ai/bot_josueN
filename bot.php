@@ -20,7 +20,7 @@ if ($mensajeLimpio == "/start") {
 } elseif ($mensajeLimpio == "como me ira en la sumativa?") {
     $response = "Te ira muy bien";
 }elseif ($mensajeLimpio == "hola") {
-    $response = "Hola, espero te encuentres muy bien , en que te puedo ayudar hoy?";
+    $response = "Soy josue?";
 }
 
 enviarMensaje($chatId, $response, $token);
